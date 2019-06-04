@@ -12,8 +12,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Controller
 public class WebController implements WebMvcConfigurer {
 	@GetMapping("/")
-	public String showForm(PersonForm personForm) {
-		return "form";
+	// public String showForm(PersonForm personForm) {
+	// 	return "form";
+	// }
+
+	public String showForm(KB kb) {
+		return "KB";
 	}
 
 	@PostMapping("/")
