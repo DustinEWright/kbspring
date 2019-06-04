@@ -44,3 +44,22 @@ OH! I see now. You're calling this as if it's a static method. But it's a normal
 You want: personForm.savePerson("data.txt", personForm); later we can talk about making this more elegant. For now please try this and tell me what happens?
 
 I've forgotten (if I ever really understood) the difference between calling a method in a static way and a normal way.  I wish to discuss please.
+
+
+
+6/3/19  see Tech Sync Agenda 6/5/19
+add article:
+
+HTML build form
+test fields and text area
+
+Spring
+At submit create new file
+
+
+List articles:
+Loop and display article
+
+Add to agenda
+check line of text for typos
+sort unique
