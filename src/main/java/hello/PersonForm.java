@@ -8,7 +8,6 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.io.IOException;
 import java.util.Date;
 
 public class PersonForm {
