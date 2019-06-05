@@ -16,17 +16,17 @@ public class WebController implements WebMvcConfigurer {
 	// 	return "form";
 	// }
 
-	public String showForm(KB kb) {
-		return "KB";
+	public String showForm() {
+		return "kb/kb"; // First kb is the folder, second reffers to the file kb.html
 	}
 
 	@PostMapping("/")
 	public String checkPersonInfo(@Valid PersonForm personForm, BindingResult bindingResult, Model model) {
 
 		if (bindingResult.hasErrors()) {
-			return "form";
+			return "form"; // reffers to form.html
 		}
 		personForm.savePerson("data.txt", personForm);  // See PLAN.md
-		return "results";
+		return "results"; // reffers to results.html
 	}
 }
