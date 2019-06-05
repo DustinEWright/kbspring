@@ -24,6 +24,12 @@ public class WebController implements WebMvcConfigurer {
 		return"kb/newKB";
 	}
 
+	@GetMapping("/lookupKB")
+	public String showLookupKB() {
+		return"kb/lookupKB";
+	}
+
+
 	@PostMapping("/")
 	public String checkPersonInfo(@Valid PersonForm personForm, BindingResult bindingResult, Model model) {
 
