@@ -12,17 +12,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Controller
 public class WebController implements WebMvcConfigurer {
 	@GetMapping("/")
-	// public String showForm(PersonForm personForm) {
-	// 	return "form";
-	// }
 	public String showKB() {
 		return "kb/kb"; // First kb is the folder, second refers to the file kb.html
 	}
-
-	// @GetMapping("/kb")
-	// public String showKB() {
-	// 	return"kb/kb";
-	// }
 
 	@GetMapping("/newKB")
 	public String showNewKB() {
