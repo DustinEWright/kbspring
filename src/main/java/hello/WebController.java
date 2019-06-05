@@ -15,9 +15,13 @@ public class WebController implements WebMvcConfigurer {
 	// public String showForm(PersonForm personForm) {
 	// 	return "form";
 	// }
-
 	public String showForm() {
 		return "kb/kb"; // First kb is the folder, second refers to the file kb.html
+	}
+
+	@GetMapping("/newKB")
+	public String showNewKB() {
+		return"kb/newKB";
 	}
 
 	@PostMapping("/")
