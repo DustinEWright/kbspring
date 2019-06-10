@@ -58,7 +58,7 @@ public class Kb {
 	    }
 
 	    public void saveKb(String fileName, PersonForm person) {        
-	            String kbData = "KBA-" + kbNumber() + " " + getName() + ", " +  getAge() + ", " + getYearsExperience() + ", " + getEmail() + ", " + getZip();
+	            String kbData = "KBA-" + kbNumber() + " " + getTitle() + ", " +  getKeywords() + ", " + getSummary() + ", " + getSolution() + ", " + getAppliesTo();
 	            
 	            try {
 	                FileWriter fileWriter = new FileWriter(fileName, true);
