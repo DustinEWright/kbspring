@@ -57,7 +57,7 @@ public class Kb {
 	        return "KB Article: (Title: " + this.title + ", Keywords: " + this.keywords + ", Summary: " + this.summary + ", Solution: " + this.solution + ", Applies To: " + this.appliesTo + ")";
 	    }
 
-	    public void saveKB(String fileName, PersonForm person) {        
+	    public void saveKb(String fileName, PersonForm person) {        
 	            String kbData = "KBA-" + kbNumber() + " " + getName() + ", " +  getAge() + ", " + getYearsExperience() + ", " + getEmail() + ", " + getZip();
 	            
 	            try {
