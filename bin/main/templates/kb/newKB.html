@@ -49,7 +49,7 @@
         </form> -->
 
         <div class="container">
-            <form action="/Kb" method="POST">
+            <form action="/newKB" method="POST">
                 <div class="form-group">
                     <label for="title">Title:</label>
                     <input type="text" class="form-control" id="title" placeholder="Title" name="title">
@@ -57,7 +57,7 @@
                 <div class="form-group">
                     <label for="keywords">Keywords:</label>
                     <input type="text" class="form-control" id="keywords"
-                        placeholder="Enter keywords separated by spaces" name="pwd">
+                        placeholder="Enter keywords separated by spaces" name="keywords">
                 </div>
                 <div class="form-group">
                     <label for="summary">Summary of the problem:</label>
@@ -66,7 +66,7 @@
                 <div class="form-group">
                     <label for="solution">How to solve the problem:</label>
                     <textarea class="form-control" id="solution" placeholder="How to solve the problem"
-                        rows="3"></textarea>
+                        name="solution" rows="3"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="appliesTo">Applies to:</label>

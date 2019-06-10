@@ -44,40 +44,7 @@ public class Kb {
 		this.appliesTo = appliesTo;
 	}
 	
-	
-	public static long kbNumber() {
-		Date date = new Date();
-		long timeStamp = date.getTime();
-		return timeStamp;
-	}
-	
-	
-	
 	 public String toString() {
 	        return "KB Article: (Title: " + this.title + ", Keywords: " + this.keywords + ", Summary: " + this.summary + ", Solution: " + this.solution + ", Applies To: " + this.appliesTo + ")";
 	    }
-
-	    public void saveKb(String fileName, PersonForm person) {        
-	            String kbData = "KBA-" + kbNumber() + " " + getTitle() + ", " +  getKeywords() + ", " + getSummary() + ", " + getSolution() + ", " + getAppliesTo();
-	            
-	            try {
-	                FileWriter fileWriter = new FileWriter(fileName, true);
-	                PrintWriter printWriter = new PrintWriter(fileWriter);
-	                printWriter.println(kbData);
-	                printWriter.close();                
-	            } catch (Exception e) {
-	                e.printStackTrace();
-	            }
-	        }
-	
-	
-	
-
-/*
-like personForm
-
-toString title: title
-
-I think this will be similar to PersonForm.java in that it will do what it does and WebController.java will serve this file.
-*/
 }
