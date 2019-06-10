@@ -1,9 +1,5 @@
 package hello;
 
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.util.Date;
-
 public class Kb {
 	
 	private String title;
@@ -14,7 +10,7 @@ public class Kb {
 	
 	
 	public String getTitle() {
-		return title;  // should the getters be return this.variable?
+		return title;
 	}
 	public void setTitle(String title) {
 		this.title = title;

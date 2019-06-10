@@ -20,7 +20,7 @@ public class WebController implements WebMvcConfigurer {
 	public String writeNewKB(Kb article) {
 		System.out.println(article);
 		DataAccessObject dao = new DataAccessObject();
-		dao.saveKb("/users/nzero/x.txt", article);
+		dao.saveKb("C:/Repos/kbspring/articles.txt", article);
 		return"kb/newKB"; // create results page with kb displayed.
 	}
 	
