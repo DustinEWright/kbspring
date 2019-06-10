@@ -2,6 +2,7 @@ package hello;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.Date;
 
 public class Kb {
 	
@@ -44,18 +45,25 @@ public class Kb {
 	}
 	
 	
+	public static long kbNumber() {
+		Date date = new Date();
+		long timeStamp = date.getTime();
+		return timeStamp;
+	}
+	
+	
 	
 	 public String toString() {
 	        return "KB Article: (Title: " + this.title + ", Keywords: " + this.keywords + ", Summary: " + this.summary + ", Solution: " + this.solution + ", Applies To: " + this.appliesTo + ")";
 	    }
 
-	    public void savePerson(String fileName, PersonForm person) {        
-	            String personData = "KBA-" + kbNumber() + " " + getName() + ", " +  getAge() + ", " + getYearsExperience() + ", " + getEmail() + ", " + getZip();
+	    public void saveKB(String fileName, PersonForm person) {        
+	            String kbData = "KBA-" + kbNumber() + " " + getName() + ", " +  getAge() + ", " + getYearsExperience() + ", " + getEmail() + ", " + getZip();
 	            
 	            try {
 	                FileWriter fileWriter = new FileWriter(fileName, true);
 	                PrintWriter printWriter = new PrintWriter(fileWriter);
-	                printWriter.println(personData);
+	                printWriter.println(kbData);
 	                printWriter.close();                
 	            } catch (Exception e) {
 	                e.printStackTrace();
