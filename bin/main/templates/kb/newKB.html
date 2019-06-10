@@ -60,12 +60,23 @@
                         placeholder="Enter keywords separated by spaces" name="pwd">
                 </div>
                 <div class="form-group">
-                    <label for="summary">Summary:</label>
+                    <label for="summary">Summary of the problem:</label>
                     <input type="text" class="form-control" id="summary" placeholder="Summary" name="summary">
                 </div>
                 <div class="form-group">
-                    <label for="solution">Steps to solve the problem:</label>
-                    <textarea class="form-control" id="solution" rows="3"></textarea>
+                    <label for="solution">How to solve the problem:</label>
+                    <textarea class="form-control" id="solution" placeholder="How to solve the problem"
+                        rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="appliesTo">Applies to:</label>
+                    <select class="form-control" id="appliesTo">
+                        <option>PC</option>
+                        <option>Linux</option>
+                        <option>VR</option>
+                        <option>WSL</option>
+                        <option>WSL2</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
