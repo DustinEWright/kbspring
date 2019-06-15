@@ -21,7 +21,7 @@ public class WebController implements WebMvcConfigurer {
 		System.out.println(article);
 		DataAccessObject dao = new DataAccessObject();
 		dao.saveKb("C:/Repos/kbspring/articles.txt", article);
-		return"kb/newKB"; // create results page with kb displayed.
+		return"kb/reviewNewKB";
 	}
 	
 	@GetMapping("/newKB")
