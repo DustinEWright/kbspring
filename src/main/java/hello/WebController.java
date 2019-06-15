@@ -24,6 +24,11 @@ public class WebController implements WebMvcConfigurer {
 		return"kb/reviewNewKB";
 	}
 	
+	@GetMapping("kb/newKB")
+	public String showReviewNewKB() {
+		return"kb/reviewNewKB";
+	}
+	
 	@GetMapping("/newKB")
 	public String showNewKB() {
 		return"kb/newKB";

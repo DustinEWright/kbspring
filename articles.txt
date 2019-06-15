@@ -8,3 +8,11 @@ KBA-1560549587589 New Repo Title, New Repo Keywords, New Repo Summary, New Repo 
 KBA-1560557582240 Yet Another New Title, More new keywords, Creating a test article after adding reviewNewKB.html, This should still work because all that's been done is copy an html file., WSL
 KBA-1560558026487 New Test Again, More testing keywords, Added xmlns:th="http://www.thymeleaf.org" to the html tag in reviewNewKB.html, Verifying functionality after adding the above., PC
 KBA-1560558876088 This one is expected to return reviewNewKB.html, Thymeleaf, This should return the string kb/reviewNewKB, Solution goes here., PC
+KBA-1560559568467 This may return reviewNewKB.html, Thymeleaf POST GET th:, A GetMapping has been added for reviewNewKB.html, Oh how impressed I will be if this works.  The previous test before the GetMapping resulted in (it was expected to fail)
+Whitelabel Error Page
+This application has no explicit mapping for /error, so you are seeing this as a fallback.
+
+Fri Jun 14 19:34:36 CDT 2019
+There was an unexpected error (type=Internal Server Error, status=500).
+Exception evaluating SpringEL expression: "newKB.title" (template: "kb/reviewNewKB" - line 42, col 18), WSL
+KBA-1560559927079 Changed GetMapping() to pass kb/newKB it was just /newKB, GetMapping PostMapping, Attempting to get the reviewNewKB.html page to show after submission, Maybe this one will work., PC
