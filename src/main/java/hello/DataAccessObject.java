@@ -12,6 +12,8 @@ public class DataAccessObject {
 		return timeStamp;
 	}
 
+	// May move kbNumber() and setup getters & setters so that attribute can be accessed like the others.
+	
 	public void saveKb(String fileName, Kb article) {
 		String kbData = "KBA-" + kbNumber() + " " + article.getTitle() + ", " + article.getKeywords() + ", " + article.getSummary() + ", "
 				+ article.getSolution() + ", " + article.getAppliesTo();
