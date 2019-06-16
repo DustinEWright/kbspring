@@ -17,10 +17,12 @@ public class WebController implements WebMvcConfigurer {
 	}
 
 	@PostMapping("/newKB")
-	public String writeNewKB(Kb article) {
+	public String writeNewKB(Kb article, Model model) {
 		System.out.println(article);
 		DataAccessObject dao = new DataAccessObject();
 		dao.saveKb("C:/Repos/kbspring/articles.txt", article);
+    // https://www.baeldung.com/spring-mvc-model-model-map-model-view
+    model.addAttribute("KB", article);
 		return"kb/reviewNewKB";
 	}
 	
