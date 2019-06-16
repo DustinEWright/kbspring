@@ -17,3 +17,5 @@ There was an unexpected error (type=Internal Server Error, status=500).
 Exception evaluating SpringEL expression: "newKB.title" (template: "kb/reviewNewKB" - line 42, col 18), WSL
 KBA-1560559927079 Changed GetMapping() to pass kb/newKB it was just /newKB, GetMapping PostMapping, Attempting to get the reviewNewKB.html page to show after submission, Maybe this one will work., PC
 KBA-1560560734425 reviewNewKB test, th:text Thymeleaf, Changed th:text to call kb.title not newKB.title, Trying to stop the 500 error., PC
+KBA-1560705538129 Testing Model Implementation, Model, Reflection, Magic, Matt showed me the magic of reflection, If all goes well, the title will appear in the browser next., PC
+KBA-1560705671181 Another Model test this time with a label, Label Title, This works, but had no label.  That's added now for the review page, Don't quit., PC
