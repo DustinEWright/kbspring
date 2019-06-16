@@ -4,43 +4,45 @@
 
 /* body styles */
 body {
-    background-color: lightgray;
+	background-color: lightgray;
 }
 
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 /* main styles */
 main {
-    text-align: center;
-    margin-top: 5em;
+	text-align: center;
+	margin-top: 5em;
 }
 
-.jumbotron {    
-    color: #343a40;    
+.jumbotron {
+	color: #343a40;
 }
 
 .jumbotron h1 {
-    text-align: center;   
+	text-align: center;
 }
 
 .jumbotron p {
-    text-align: left;   
+	text-align: left;
+}
+
+main h1 p {
+	color: orange;
+	float: left;
 }
 
 /* footer styles */
 footer {
-    width: 100%; 
-    position: absolute;
+	width: 100%;
+	/* position: absolute;*/
     bottom: 0;
-    background-color: #343a40!important;
-    text-align: center;
-    color: rgba(255,255,255,.5);    
+	background-color: #343a40 !important;
+	text-align: center;
+	color: rgba(255, 255, 255, .5);
 }
-
-
-
 
 /*
 Source:

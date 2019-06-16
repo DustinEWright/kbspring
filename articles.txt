@@ -21,3 +21,13 @@ KBA-1560705538129 Testing Model Implementation, Model, Reflection, Magic, Matt s
 KBA-1560705671181 Another Model test this time with a label, Label Title, This works, but had no label.  That's added now for the review page, Don't quit., PC
 KBA-1560706268820 Article number test, KbNumber test, The KbNumber attribute does not have getters & setters like the other fields.  I'm guessing this won't work, I think I'm going to have to add getters and setters for the KbNumber attribute, but maybe not.  After it's added to the Model the pop up in Eclipse indicates it behaves like a map.  I just don't yet know.  Let's find out., PC
 KBA-1560706911545 Title & Keywords Test, title keywords test, Attempting to map a 2nd attribute to the review page, This should display the title and the keywords attribute on the review page., PC
+KBA-1560707130167 Title & Keywords Test, title keywords test, Attempting to map a 2nd attribute to the review page, This should display the title and the keywords attribute on the review page., PC
+KBA-1560707280545 Float Test, Float css, Attempting to float the <p> elements to the left to improve readability, Added the following to main.css
+
+In the main section
+main p {
+float: left;
+}, PC
+KBA-1560708153086 still testing, css absolute positon, Still trying to float the review to the left, main p was not being applied.  Trying main h1 p, PC
+KBA-1560708267337 still testing, css absolute positon, Still trying to float the review to the left, main p was not being applied.  Trying main h1 p, PC
+KBA-1560708302896 trying to change the color of main h1 p, color, trying to see the css of the p elements of the review page, Not yet known., PC
