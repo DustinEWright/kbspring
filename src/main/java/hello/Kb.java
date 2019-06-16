@@ -69,8 +69,5 @@ public class Kb {
 		return "KB Article: (Number: " + this.kbNumber + ", Title: " + this.title + ", Keywords: " + this.keywords
 				+ ", Summary: " + this.summary + ", Solution: " + this.solution + ", Applies To: " + this.appliesTo
 				+ ")";
-		// return "KB Article: (Title: " + this.title + ", Keywords: " + this.keywords +
-		// ", Summary: " + this.summary + ", Solution: " + this.solution + ", Applies
-		// To: " + this.appliesTo + ")";
 	}
 }
