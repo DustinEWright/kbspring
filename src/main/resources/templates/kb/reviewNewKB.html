@@ -42,7 +42,7 @@
 
 	<p>
 		Article:&nbsp;KBA-<span th:text="${KB.KbNumber}"></span>
-		<!-- This is not serving the value written to the text document.  It appears to be getting a fresh timestamp providing that on the review page. -->
+		<!-- This is not serving the value written to the text document.  It appears to be getting a fresh timestamp providing that on the review page. Maybe a better approach would be to actually use the last entry in the file to populate this page.-->
 	</p>
 	<p>
 		Title:&nbsp;<span th:text="${KB.title}"></span>
