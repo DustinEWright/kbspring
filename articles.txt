@@ -32,3 +32,5 @@ KBA-1560708153086 still testing, css absolute positon, Still trying to float the
 KBA-1560708267337 still testing, css absolute positon, Still trying to float the review to the left, main p was not being applied.  Trying main h1 p, PC
 KBA-1560708302896 trying to change the color of main h1 p, color, trying to see the css of the p elements of the review page, Not yet known., PC
 KBA-1560709762288 All but article number should now appear in review, review keyword, review summary, Review solution., PC
+KBA-1560710486355 kbNumber test, kbNumber getters setters, Moved kbNumber() to Kb.java to setup getters & setters for it so it could be a proper model attribute, Setup getters & setters for kbNumber in Kb.java.  Now it's a proper model attribute., WSL
+KBA-1560710789670 test article, test keyword, test summary, test solution, PC

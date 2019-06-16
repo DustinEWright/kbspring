@@ -39,10 +39,11 @@
 	</nav>
 	<main>
 	<h1>Lookup KB Article Page</h1>
-	<!--  come back to this after moving kbNumber() from Data Acccess Object to Kb.java and setting up getters & setters
-        <p>Article:&nbsp;<span th:text="${KB.KbNumber}"></span></p>
-          -->
 
+	<p>
+		Article:&nbsp;<span th:text="${KB.KbNumber}"></span>
+		<!-- This is not serving the value written to the text document.  It appears to be getting a fresh timestamp providing that on the review page. -->
+	</p>
 	<p>
 		Title:&nbsp;<span th:text="${KB.title}"></span>
 	</p>

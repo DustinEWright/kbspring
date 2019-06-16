@@ -6,16 +6,15 @@ import java.util.Date;
 
 public class DataAccessObject {
 
-	public static long kbNumber() {
-		Date date = new Date();
-		long timeStamp = date.getTime();
-		return timeStamp;
-	}
-
-	// May move kbNumber() and setup getters & setters so that attribute can be accessed like the others.
+//	public static long kbNumber() {
+//		Date date = new Date();
+//		long timeStamp = date.getTime();
+//		return timeStamp;
+//	}
+// Moved kbNumber() and setup getters & setters so that attribute can be accessed like the others.
 	
 	public void saveKb(String fileName, Kb article) {
-		String kbData = "KBA-" + kbNumber() + " " + article.getTitle() + ", " + article.getKeywords() + ", " + article.getSummary() + ", "
+		String kbData = "KBA-" + article.kbNumber() + " " + article.getTitle() + ", " + article.getKeywords() + ", " + article.getSummary() + ", "
 				+ article.getSolution() + ", " + article.getAppliesTo();
 
 		try {
