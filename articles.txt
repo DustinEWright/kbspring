@@ -34,3 +34,6 @@ KBA-1560708302896 trying to change the color of main h1 p, color, trying to see 
 KBA-1560709762288 All but article number should now appear in review, review keyword, review summary, Review solution., PC
 KBA-1560710486355 kbNumber test, kbNumber getters setters, Moved kbNumber() to Kb.java to setup getters & setters for it so it could be a proper model attribute, Setup getters & setters for kbNumber in Kb.java.  Now it's a proper model attribute., WSL
 KBA-1560710789670 test article, test keyword, test summary, test solution, PC
+KBA-1560714434863 css test title, css test keyword, css test summary, main.css has too many tags with the text centered.  The <main> tag has the text centered.  This has been commented out., Linux
+KBA-1560714565006 more css tests, css alignment test, css alignment test summary, Still wanting to center everything, why not yet known., PC
+KBA-1560714889376 again, again, again, again, PC

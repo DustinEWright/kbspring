@@ -13,8 +13,12 @@ h1 {
 
 /* main styles */
 main {
-	text-align: center;
 	margin-top: 5em;
+}
+
+main p {
+	margin-left: 1em;
+	text-align: left;
 }
 
 .jumbotron {
@@ -32,8 +36,7 @@ main {
 /* footer styles */
 footer {
 	width: 100%;
-	/* position: absolute;*/
-    bottom: 0;
+	bottom: 0;
 	background-color: #343a40 !important;
 	text-align: center;
 	color: rgba(255, 255, 255, .5);
