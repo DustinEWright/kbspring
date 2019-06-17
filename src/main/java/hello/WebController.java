@@ -21,6 +21,7 @@ public class WebController implements WebMvcConfigurer {
 		System.out.println(article);
 		DataAccessObject dao = new DataAccessObject();
 		dao.saveKb("articles.txt", article);
+		System.out.println("Back from saveKb article="+article);
     // https://www.baeldung.com/spring-mvc-model-model-map-model-view
     model.addAttribute("KB", article);
 		return"kb/reviewNewKB";
