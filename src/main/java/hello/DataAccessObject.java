@@ -18,6 +18,11 @@ public class DataAccessObject {
 		// value did not match.
 		// No that is not it. KBA-1560717163924 yet KBA-1560717163822 is actually
 		// written to the file.
+		
+					System.out.println("About to call getKbNumber");
+Long n = article.generateKbNumber();
+System.out.println("n="+n);
+	  article.setKbNumber(n);
 		String kbData = "KBA-" + article.getKbNumber() + " " + article.getTitle() + ", " + article.getKeywords() + ", "
 				+ article.getSummary() + ", " + article.getSolution() + ", " + article.getAppliesTo();
 
