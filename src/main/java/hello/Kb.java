@@ -12,11 +12,12 @@ public class Kb {
 	private String appliesTo;
 
 	public Long getKbNumber() {
-		return kbNumber();
+		return this.kbNumber;
 	}
 
-	public void setKbNumber(Long kbNumber) {
-		this.kbNumber = kbNumber;
+	public void setKbNumber(Long k) {
+		this.kbNumber = k;
+		System.out.println("\n\nJust set this.kbNumber="+this.kbNumber);
 	}
 
 	public String getTitle() {
@@ -59,10 +60,12 @@ public class Kb {
 		this.appliesTo = appliesTo;
 	}
 
-	public static long kbNumber() {
+	public Long generateKbNumber() {
 		Date date = new Date();
 		long timeStamp = date.getTime();
-		return timeStamp;
+		Long rval =  new Long(timeStamp); // TODO(DEW): read about Autoboxing
+		System.out.println("About to return " + rval);
+		return rval;
 	}
 
 	public String toString() {
